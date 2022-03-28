@@ -31,13 +31,13 @@ struct HomeView: View {
                                         ContentView()
                                         .onAppear(perform: {
                                             model.beginModule(moduleid: module.id)
-                                }),
-                            label: {
-                                    
-                                    // Learning Card
-                                    HomeViewRow(image: module.content.image, title: "Learn\(module.category)", description: module.content.description, count: "\(module.content.lessons.count) Lessons", time: module.content.time)
-                                    
-                                })
+                                        }),
+                                    label: {
+                                        
+                                        // Learning Card
+                                        HomeViewRow(image: module.content.image, title: "Learn\(module.category)", description: module.content.description, count: "\(module.content.lessons.count) Lessons", time: module.content.time)
+                                        
+                                    })
                                 
                                 
                                 // Test Card
@@ -57,6 +57,7 @@ struct HomeView: View {
             }
             .navigationTitle("Get Started")
         }
+        .navigationViewStyle(.stack)
     }
 }
 
