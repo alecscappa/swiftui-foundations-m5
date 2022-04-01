@@ -23,6 +23,7 @@
 		226290F427F0B18200EE3B2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226290F327F0B18200EE3B2E /* ContentView.swift */; };
 		22DAC03B27F2063900702B8D /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DAC03A27F2063900702B8D /* CodeTextView.swift */; };
 		22E894D227F6E52100FC4B0D /* RectangeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E894D127F6E52100FC4B0D /* RectangeCard.swift */; };
+		22E894D427F6E75C00FC4B0D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E894D327F6E75C00FC4B0D /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		226290F327F0B18200EE3B2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22DAC03A27F2063900702B8D /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		22E894D127F6E52100FC4B0D /* RectangeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangeCard.swift; sourceTree = "<group>"; };
+		22E894D327F6E75C00FC4B0D /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				226290F327F0B18200EE3B2E /* ContentView.swift */,
 				2218FBCC27F140FE00CEDBCA /* ContentViewRow.swift */,
 				2218FBCE27F18AA900CEDBCA /* ContentDetailView.swift */,
+				22E894D327F6E75C00FC4B0D /* TestView.swift */,
 				22DAC03A27F2063900702B8D /* CodeTextView.swift */,
 				22E894D127F6E52100FC4B0D /* RectangeCard.swift */,
 			);
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E894D427F6E75C00FC4B0D /* TestView.swift in Sources */,
 				22E894D227F6E52100FC4B0D /* RectangeCard.swift in Sources */,
 				226290D927F0942700EE3B2E /* HomeView.swift in Sources */,
 				226290F227F0ACC100EE3B2E /* HomeViewRow.swift in Sources */,
